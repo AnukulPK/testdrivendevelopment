@@ -20,7 +20,7 @@ public class MagicNumberTest {
     }
 
     @Test
-    void shoulReturnFalseWhenSumOfTwoNumbersIsNotEqualTo10(){
+    void shouldReturnFalseWhenSumOfTwoNumbersIsNotEqualTo10(){
         MagicNumber magicNumber = new MagicNumber();
         List<Integer> list= new ArrayList<>();
         list.add(2);
